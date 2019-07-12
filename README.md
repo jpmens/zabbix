@@ -1,6 +1,7 @@
 # zabbix
 Bastille Template to create a Zabbix Monitoring Jail
 
+ STATUS:  Testing
 
 first modify the /usr/local/etc/zabbix42/zabbix_agentd.conf file.  Example below:
 
