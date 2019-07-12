@@ -1,0 +1,11 @@
+cd /usr/local/etc/zabbix42/
+cp zabbix_agentd.conf.sample zabbix_agentd.conf
+
+chown -R zabbix /usr/local/etc/zabbix34/scripts
+chmod +x /usr/local/etc/zabbix34/scripts/*
+
+cd /usr/local/etc/zabbix34/
+cp zabbix_server.conf.sample zabbix_server.conf
+
+
+

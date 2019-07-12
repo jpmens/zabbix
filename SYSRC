@@ -1,0 +1,9 @@
+zabbix_server=YES
+zabbix_agent=YES
+nginx_enable=YES
+
+-f /etc/sysctl.conf security.jail.allow_raw_sockets=1
+-f /etc/sysctl.conf security.jail.sysvipc_allowed=1
+
+
+
